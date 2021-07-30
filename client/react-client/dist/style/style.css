@@ -1,0 +1,27 @@
+button {
+  background-color: aqua;
+  width: 120px;
+  height: 60px;
+  font-size: 30px;
+}
+
+button:hover,
+button:focus,
+button:active {
+  background-color: blueviolet;
+}
+
+.container {
+  border: 1px solid black;
+  background-color: beige;
+  max-width: 500px;
+  height: 400px;
+  font-size: 10px;
+  margin: 80px;
+  padding: 5px;
+}
+
+.img {
+  width: 200px;
+  height: 200px;
+}
