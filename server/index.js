@@ -1,8 +1,8 @@
 const express = require("express");
 const app = express();
 const path = require("path");
-const db = require("../../src/db/indexdb.js");
-const Cat = require("../../src/db/Cat.js");
+const db = require("../db/db.js");
+const Cat = require("../db/Cat.js");
 
 const port = 3214;
 
